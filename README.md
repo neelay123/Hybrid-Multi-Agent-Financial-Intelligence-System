@@ -13,9 +13,9 @@ This repository contains three main components:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    HYBRID FINANCIAL AI SYSTEM                  │
+│                    HYBRID FINANCIAL AI SYSTEM                   │
 ├─────────────────────────────────────────────────────────────────┤
-│  Fine-tuned Phi-4 LLM  │  Knowledge Graph  │  Multi-Agent Flow │
+│  Fine-tuned Phi-4 LLM   │  Knowledge Graph  │  Multi-Agent Flow │
 │  • LoRA Adaptation      │  • SEC EDGAR Data │  • LangGraph      │
 │  • FinQA Training       │  • GNN Embeddings │  • Query Routing  │
 │  • 26% Accuracy         │  • 420K Relations │  • Entity Resolve │
@@ -26,21 +26,17 @@ This repository contains three main components:
 
 ### System Requirements
 - Python 3.9+
-- CUDA-compatible GPU (recommended: 16GB+ VRAM)
+- CUDA-compatible GPU (recommended: 47GB+ VRAM)
 - 32GB+ RAM
 - 50GB+ free disk space
-
-### Hardware Recommendations
-- **Training Phase**: RTX 4090 / A6000 or equivalent
-- **Inference Phase**: RTX 4080 / V100 or equivalent
-- **Memory**: Training uses 90% GPU memory, inference uses ~60%
+- A100 or equivalent
 
 ## Installation
 
 ### 1. Clone Repository
 ```bash
-git clone <your-repository-url>
-cd hybrid-financial-ai-system
+git clone Hybrid-Multi-Agent-Financial-Intelligence-System
+cd Hybrid-Multi-Agent-Financial-Intelligence-System
 ```
 
 ### 2. Create Virtual Environment
