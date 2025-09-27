@@ -44,6 +44,21 @@ The system achieves **550% improvement** in financial question-answering accurac
 | **Entity Resolution** | - | 100% | **Perfect** |
 | **Query Routing** | - | 100% | **Perfect** |
 
+## 🏗️ System Architecture
+
+- **🧠 Domain-Specific Fine-Tuned Phi-4 Model** - Enhanced with LoRA for financial reasoning
+
+<img width="3727" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-005335" src="https://github.com/user-attachments/assets/7400e8a0-f0fa-4765-972f-1f2b719f0353" />
+
+- **🕸️ Large-Scale Financial Knowledge Graph** - Built from 18,000+ SEC EDGAR filings
+
+<img width="2105" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-012331" src="https://github.com/user-attachments/assets/8b302a77-f1d6-4b20-b2c8-51e094e736f1" />
+
+- **🤖 Multi-Agent Orchestration** - Intelligent query routing using LangGraph
+
+<img width="3840" height="2352" alt="Untitled diagram _ Mermaid Chart-2025-08-21-014841" src="https://github.com/user-attachments/assets/df87e079-8fea-4d2f-addd-e90aa910db92" />
+
+
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -146,14 +161,6 @@ while True:
             break
 ```
 
-## 🏗️ System Architecture
-<img width="3727" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-005335" src="https://github.com/user-attachments/assets/7400e8a0-f0fa-4765-972f-1f2b719f0353" />
-
-
-<img width="2105" height="3840" alt="Untitled diagram _ Mermaid Chart-2025-08-21-012331" src="https://github.com/user-attachments/assets/8b302a77-f1d6-4b20-b2c8-51e094e736f1" />
-
-
-<img width="3840" height="2352" alt="Untitled diagram _ Mermaid Chart-2025-08-21-014841" src="https://github.com/user-attachments/assets/df87e079-8fea-4d2f-addd-e90aa910db92" />
 
 ## 📊 Dataset Information
 
