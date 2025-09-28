@@ -1,7 +1,7 @@
 # Hybrid Multi-Agent Financial Intelligence System
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue).
-[![PyTorch](https://img.shields.io/lds).A cutting-edge financial AI system integrating fine-tuned language models with graph neural networks for comprehensive financial analysis and intelligent decision-making.**
+![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue).
+![PyTorch](https://img.shields.io/lds) .A cutting-edge financial AI system integrating fine-tuned language models with graph neural networks for comprehensive financial analysis and intelligent decision-making.**
 
 ## 🚀 Overview
 
